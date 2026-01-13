@@ -1,6 +1,13 @@
 Maven Fetcher
 =================================================================================================
 
+[![Maven Central](https://img.shields.io/maven-central/v/org.myjtools/maven-fetcher)](https://central.sonatype.com/artifact/org.myjtools/maven-fetcher)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=org-myjtools_maven-fetcher&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=org-myjtools_maven-fetcher)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=org-myjtools_maven-fetcher&metric=coverage)](https://sonarcloud.io/summary/new_code?id=org-myjtools_maven-fetcher)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=org-myjtools_maven-fetcher&metric=bugs)](https://sonarcloud.io/summary/new_code?id=org-myjtools_maven-fetcher)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=org-myjtools_maven-fetcher&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=org-myjtools_maven-fetcher)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=org-myjtools_maven-fetcher&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=org-myjtools_maven-fetcher)
+
 This project intention is to offer an easy way to retrieve Maven artifacts from remote repositories
 outside a regular Maven life-cycle operation. This feature may be necessary, for example, if you are
 building a tool that handles plugins that are provided as Maven artifacts, and you need to download
@@ -41,7 +48,7 @@ Include the following within the `<dependencies>` section of your `pom.xml` file
 <dependency>
     <groupId>org.myjtools/groupId>
     <artifactId>maven-fetcher</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 ```
 
