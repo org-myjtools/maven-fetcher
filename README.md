@@ -125,6 +125,7 @@ To achieve this, simply clear the remote repositories before adding your own.
 The artifact request usually include the specific coordinates of the required artifacts 
 in form of `<groupId>:<artifactId>:<version>` . However, this library benefits from the 
 Maven version range mechanism, being `version` some of the following:
+
 | Range       | Meaning                           |
 | ----------- | --------------------------------- |
 | `1.0`       | specific version                  |
