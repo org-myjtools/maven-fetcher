@@ -48,7 +48,7 @@ Include the following within the `<dependencies>` section of your `pom.xml` file
 <dependency>
     <groupId>org.myjtools/groupId>
     <artifactId>maven-fetcher</artifactId>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 
