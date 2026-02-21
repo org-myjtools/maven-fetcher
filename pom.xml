@@ -66,6 +66,16 @@
         </resources>
         <plugins>
             <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>injected-central-publishing</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>org.myjtools</groupId>
                 <artifactId>docsite-maven-plugin</artifactId>
                 <version>1.0.1</version>
