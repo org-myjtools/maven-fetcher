@@ -24,6 +24,6 @@ jobs:
           cache: maven
 
       - name: Publish to GitHub Packages
-        run: mvn -B deploy -DskipTests -DaltDeploymentRepository=github::https://maven.pkg.github.com/${{ github.repository }}
+        run: mvn -B deploy -DskipTests -Dgpg.skip=true -DaltDeploymentRepository=github::https://maven.pkg.github.com/${{ github.repository }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
